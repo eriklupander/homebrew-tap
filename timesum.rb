@@ -2,9 +2,9 @@
 class Timesum < Formula
   desc "A simple terminal UI for calculating time worked, written in Go"
   homepage "https://github.com/eriklupander/timesum"
-  url "https://github.com/eriklupander/timesum/releases/download/0.0.6/timesum_0.0.6_Darwin_x86_64.tar.gz"
-  version "0.0.6"
-  sha256 "f8b13df025f0fb3e5e2e64edce3ab343e73e97225e1d6797610d0b3370b6a390"
+  url "https://github.com/eriklupander/timesum/releases/download/v0.0.7/timesum_0.0.7_Darwin_x86_64.tar.gz"
+  version "0.0.7"
+  sha256 "6e328215f6ec8dd9801074c864b836208ad693ef8b9ffc3343396932e6f75c5e"
 
   def install
     bin.install "timesum"
